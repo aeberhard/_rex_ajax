@@ -1,0 +1,12 @@
+<h3>Addon REX_Ajax - Ajax-Schnittstelle für REDAXO</h3>
+Dieses Addon bietet eine Schnittstelle um per Ajax auf z.B. REDAXO-Inhalte zuzugreifen.
+Es können PHP-Module hinterlegt werden die dann &uuml;ber das REDAXO-Frontend (index.php) oder auch über das Backend (redaxo/index.php) aufgerufen werden k&ouml;nnen.
+
+<strong>Beispielaufruf Frontend:</strong> http://meinedomain.de/index.php?rex_ajax=<em>modulname</em>&amp;parameter=irgendwas
+<strong>Beispielaufruf Backend:</strong> http://meinedomain.de/redaxo/index.php?rex_ajax=<em>modulname</em>&amp;parameter=irgendwas
+
+Die Ajax-Schnittstelle wird (bewusst) <em>vor</em> allen anderen Addons aufgerufen, d.h. falls z.B. Textile notwendig ist muss dieses im Modul inkludiert werden. Die REDAXO-API und auch die $REX-Variable ist aber in jedem Modul verfügbar.
+
+Natürlich kann in den Modulen nach Herzenslust auch auf andere Frameworks, PHP-Module usw. zugegriffen werden.
+
+Viel Spass ;-)

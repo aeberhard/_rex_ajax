@@ -1,0 +1,56 @@
+# Addon: REX_Ajax
+
+menu_link = REX_Ajax
+title = Addon: REX_Ajax
+
+menu_frontend = Frontend
+menu_backend = Backend
+menu_settings = Konfiguration
+menu_info = Informationen
+
+title_frontend = Frontend-Module 
+title_backend = Backend-Module 
+title_settings = Konfiguration
+title_help = Hilfe
+title_changelog = Changelog
+
+label_frontend = REX_Ajax im Frontend aktiv
+label_backend = REX_Ajax im Backend aktiv
+label_errormail = Bei Fehler E-Mail an folgende Adresse
+label_syntax = PHP-Syntaxpr&uuml;fung (shell_exec muss erlaubt sein)
+label_highlight = PHP-Syntaxhighlight mit Codepress
+
+button_save = Konfiguration speichern
+button_msave = Modul speichern
+button_mapply = Modul &uuml;bernehmen
+
+modules_dir = Modulverzeichnis: <span title="{1}">"{0}"</span><br />
+beispiel_frontend = Beispielaufruf: <a href="{0}index.php?rex_ajax=article&amp;article_id=1">{0}index.php?rex_ajax=article&amp;article_id=1</a><br />
+beispiel_backend = Beispielaufruf: <a href="{0}redaxo/index.php?rex_ajax=backendtest&amp;parameter=1">{0}redaxo/index.php?rex_ajax=backendtest&amp;parameter=1</a><br />
+modules_notfound = Keine Module vorhanden!
+modules_count = {0} Modul(e) vorhanden!
+
+editform_summary_fe = Auflistung aller angelegten Frontend-Module
+editform_caption_fe = Liste der angelegten Frontend-Module
+editform_summary_be = Auflistung aller angelegten Backend-Module
+editform_caption_be = Liste der angelegten Backend-Module
+editform_title_name = Name
+editform_title_desc = Beschreibung
+editform_title_func = Funktionen
+editform_func_create = Modul erstellen
+editform_func_edit = bearbeiten
+editform_func_del = l&ouml;schen
+editform_func_delmod = Modul l&ouml;schen?
+
+editform_edit_title = Modul editieren
+editform_edit_name = Modulname
+editform_edit_desc = Beschreibung
+editform_edit_code = Modul-Code
+
+message_saved = Modul -{0}- wurde gespeichert!
+message_deleted = Modul -{0}- wurde gel&ouml;scht!
+message_error_save = Modul -{0}- konnte nicht gespeichert werden!
+message_error_name = Bitte einen Modulnamen angeben!
+message_error_name2 = Bitte einen gültigen Modulnamen angeben!
+message_error_desc = Bitte eine Beschreibung angeben!
+message_error_dup = Modul -{0}- bereits vorhanden!

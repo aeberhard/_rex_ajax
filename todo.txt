@@ -1,0 +1,7 @@
+test mit alten versionen
+
+demo-export pfade anpassen an _rex_ajax_ statt _rex_ajax
+
+evtl. module in db speichern
+
+codemirror syntaqxhighlight

@@ -1,0 +1,5 @@
+Addon: REX_Ajax Version 1.0
+
+20.07.2010 Version 1.0 Andreas Eberhard <andreas.eberhard@gmail.com>
+           - ab REDAXO 3.2.x
+           - in 3.2.x funktioniert Syntax-Highlight nicht, muss evtl. bei Optionen abgeschaltet werden
